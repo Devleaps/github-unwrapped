@@ -10,3 +10,17 @@ body {
     color-scheme: dark;
   }
 }
+
+.christmas-theme {
+  background-image: url('/images/christmas.jpg');
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+  }
+}
+
+.animate-fall {
+  animation: fall linear infinite;
+}
